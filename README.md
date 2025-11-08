@@ -1,26 +1,13 @@
 # 🧮 TP: Dask SQL – TPC-H Benchmark Analysis
 
-This project demonstrates how to use **Dask SQL** to execute and analyze **TPC-H benchmark queries** for distributed data processing and performance evaluation.  
-The notebook illustrates how Dask SQL enables scalable analytics by combining the flexibility of Python with the power of SQL for large datasets.
+Benchmarks provide standardized, repeatable, and comparable evaluations of decision support system technologies such as databases, data warehouses, and OLAP tools. 
+**TPC-H** (Transaction Processing Performance Council – Decision Support Benchmark H) is an industry-standard benchmark used to evaluate the performance of decision support systems and data warehouses. 
+- Goal: Measure the ability of a system to handle complex analytical queries and large volumes of data.
+- Data Model: Based on a product supplier and sales business schema.
 
 ---
 
-## 🚀 Features
-- Execution of **TPC-H benchmark queries (Q1–Q22)** using Dask SQL  
-- Comparison between **Dask SQL** and traditional SQL engines  
-- Exploration of **distributed computing concepts**  
-- Performance metrics and query optimization techniques  
-
----
-
-## 🛠️ Requirements
-Before running the notebook, install the following dependencies:
-
-```bash
-pip install dask dask-sql pandas numpy matplotlib jupyter
-```
-
-📂 Project Structure
+## 📂 Project Structure
 ```graphql
 RanaDaskSQL_tpch.ipynb   # Main notebook containing code and analysis
 README.md
